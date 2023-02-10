@@ -34,7 +34,7 @@ for (let i = 0; i < botoes.length; i++) {
   }
 
   tecla.onkeydown = function (evento) {
-    if (evento.code === "Space" || "Enter") {
+    if (evento.code === "Space" || evento.code === "Enter") {
       tecla.classList.add("ativa")
     }
   }
